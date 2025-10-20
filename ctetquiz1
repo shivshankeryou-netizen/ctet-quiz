@@ -1,0 +1,43 @@
+<!-- ✅ CTET Practice Test - GitHub Pages index -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTET Practice Test - All Subjects | Free Mock Quiz 2025</title>
+  <meta name="description" content="Free CTET Practice Test 2025 - All Subjects (Child Pedagogy, Mathematics, EVS, English, Hindi)">
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f5f6fa;color:#222;margin:0;padding:0}
+    header{background:#004aad;color:#fff;text-align:center;padding:20px}
+    h1{margin:0;font-size:24px}
+    p.sub{margin:5px 0 0;font-size:15px}
+    .container{max-width:900px;margin:20px auto;background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);padding:20px;text-align:center}
+    .start-btn{display:inline-block;background:#004aad;color:#fff;padding:10px 25px;border-radius:8px;font-size:16px;cursor:pointer}
+    .start-btn:hover{background:#0066ff}
+    iframe{width:100%;height:1250px;border:none;display:none}
+    footer{text-align:center;padding:12px;background:#004aad;color:#fff;font-size:14px;margin-top:20px}
+    @media(max-width:600px){iframe{height:1600px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CTET Practice Test - All Subjects</h1>
+    <p class="sub">Child Pedagogy • Mathematics • EVS • English • Hindi</p>
+  </header>
+
+  <div class="container">
+    <p><b>📘 Instructions:</b> Click <strong>Start Quiz</strong> to begin your CTET 2025 practice test.</p>
+    <div class="start-btn" onclick="startQuiz()">▶ Start Quiz</div>
+    <iframe id="quizFrame" src="CTET_550_each_AllSubjects.html" allowfullscreen></iframe>
+  </div>
+
+  <footer>© 2025 CTET Exam | All Rights Reserved</footer>
+
+  <script>
+    function startQuiz(){
+      document.getElementById('quizFrame').style.display='block';
+      document.querySelector('.start-btn').style.display='none';
+    }
+  </script>
+</body>
+</html>
